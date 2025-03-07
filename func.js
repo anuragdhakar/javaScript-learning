@@ -83,6 +83,8 @@ function validate(){
     let name=document.querySelector('#name').value
     let email=document.querySelector('#email').value
     let age=document.querySelector('#age').value
+    let pass=document.querySelector('#password').value
+    let contact=document.querySelector('#contact').value
 
     if(name==""){
        let error=document.querySelector('#errorname')
@@ -119,6 +121,31 @@ else if(isNaN(age)){
 else if(age >=999){
     alert("please enter valid age")
     document.querySelector('#age').focus()
+    return false
+}
+else if(pass==""){
+    alert("please enter password")
+    document.querySelector('#password').focus()
+    return false
+}
+else if(!(pass.match(/[~!@#$%^&*-+]/))){
+    alert("please enter special character")
+document.querySelector('#password').focus()
+return false
+}
+else if(contact==""){
+    alert("please enter contact number")
+    document.querySelector('#contact').focus()
+    return false
+}
+else if(isNaN(contact)){
+    alert(" please  input valid no.")
+    document.querySelector('#contact').focus()
+    return false
+}
+else if(contact.length>10 || contact.length<10){
+    alert("please fill 10 digit number")
+document.querySelector('#contact').focus()
     return false
 }
 }
