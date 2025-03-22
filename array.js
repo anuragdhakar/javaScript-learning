@@ -63,7 +63,7 @@ let arr=["cybrom",26,"milan",46]
 arr.splice(2,1,"anurag","patel")
 console.log(arr)
 
-//Destructuring of Array ---if we want to use the elements of an array as  variables known as destructuring of array.
+//Destructuring of Array ---if we want to use the elements of an array as variables known as destructuring of array.
 let [name,age,shop,ct]=["cybrom",26,"milan",46]
 console.log(shop)
 
