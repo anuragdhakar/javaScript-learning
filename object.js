@@ -47,19 +47,40 @@
 // ob.obfun()
 // console.log(ob.car[1]);
 
-//merging 2 objects 
+//merging 2 objects-----------------------------------------------------------------
 
-let obj1={
-    name : "imran",age:90,contact:123
-}
+// let obj1={
+//     name : "imran",age:90,contact:123
+// }
 
-let obj2={
-    city: "bpl",state:"mp",...obj1
-}
+// let obj2={
+//     city: "bpl",state:"mp",...obj1
+// }
 
-obj2.email = "imran@gmail"
-// let obj3={...obj1,...obj2}
-console.log(obj2); 
+// obj2.email = "imran@gmail"
+// // let obj3={...obj1,...obj2}
+// console.log(obj2); 
 
-//to delete an element from object using key.
-delete obj2.state
+// //to delete an element from object using key.
+// delete obj2.state
+
+//to find out keys of an object-------------------------------------------------------------
+let person ={
+
+       name : "anu",
+       contact :122,
+     }
+     for(let k in person){
+        console.log(person[k]);
+     }
+
+
+     // to acces one single key------------------------------------------------------------------
+     let k= Object.keys(person)
+     console.log(k[0]);
+
+     //to acces one single values----------------------------------------------------------------- 
+     let p =Object.values(person)
+     console.log(p[0]);
+     
+     //

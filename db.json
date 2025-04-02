@@ -1,0 +1,15 @@
+{
+"hotel":[
+    {
+    "name":"ayush",
+    "contact":22344,
+    "age":22,
+    "price":500
+ },
+ {
+     "name":"kapil",
+ "contact":2232,
+ "age":23,
+ "price":400
+}
+]}
