@@ -1,0 +1,27 @@
+{
+    "management" :[{
+        "name":"anurag",
+        "age":22,
+        "contact":123,
+        "gmail":"annu@gmail.com"
+    },
+    {
+        "name":"ayush",
+        "age":22,
+        "contact":321,
+        "gmail":"ayuu@gmail.com"
+
+    },
+    {
+        "name":"kapil",
+        "age":22,
+        "contact":231,
+        "gmail":"kapil@gmail.com"
+    },
+    {
+        "name":"abhi",
+        "age":23,
+        "contact":123121,
+        "gmail":"abhiii@gmail.com"
+    }
+]}
